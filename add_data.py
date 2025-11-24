@@ -16,7 +16,7 @@ def add_price(symbol, price):
 
     print(f'Saved: {symbol} at ${price} on {current_time}')
 
-add_price('BTC', 96000)
-add_price('ETH', 3000)
-add_price('SOL', 200)
+# add_price('BTC', 96000)
+# add_price('ETH', 3000)
+# add_price('SOL', 200)
 

@@ -18,7 +18,7 @@ def get_bitcoin_price():
     # except Exception as e:
     #     print(f"Connection Error: {e}")
     #     return None
-    url = "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd"
+    url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
 
     try: 
         response = requests.get(url, timeout=5)
@@ -26,7 +26,7 @@ def get_bitcoin_price():
         if response.status_code == 200:
             data = response.json()
 
-            price = data['solana']['usd']
+            price = data['bitcoin']['usd']
 
             print(f"Current Bitcoin Price: ${price}")
             return price
