@@ -1,4 +1,4 @@
-# 📈 Market Anomaly Detector
+# Market Anomaly Detector
 
 A backend data engineering project that builds a real-time ETL pipeline to track cryptocurrency prices and detect sudden market volatility.
 
