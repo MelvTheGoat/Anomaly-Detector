@@ -30,4 +30,3 @@ market-analyzer/
 └── market_data.db     # The Storage (SQLite File)
 
 
-git push
